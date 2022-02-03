@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #2C2C2C;
+  }
+  
+  .body {
+    width: 50%;
+    height: auto;
+    background-color: #383838;
+    border-radius: 10px;
+    margin: 50px auto;  
+  }
+  
+  .body-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parent {
+    box-sizing: border-box;
+    margin: 10px 14px 0px;
+    background: #E7B400;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .some-element {
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid #525252;
+    font-family: Jost;
+    font-size: 20px;
+  }
+  
+  input {
+    background: #FFFFFF;
+    color: black;
+    outline:none;
+    padding: 10px;
+    margin: 0px 13px;
+  }
+  input[placeholder] {
+    font-family: Jost;
+    font-size: 20px;
+    color: #525252;
+  }
+  button {
+    background: #525252;
+    padding: 10px;
+    margin: 1px 13px 10px;
+    color: white;
+    font-family: Jost;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-top: 1px solid #525252;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #525259;
+  }
+  
+  .some-element:nth-child(1n + 1) {
+    text-align: right;
+  }
+  
+  .some-element:nth-child(2n + 1) {
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .body {
+      width: 80%;
+    }
+  }
